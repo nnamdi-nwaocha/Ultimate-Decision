@@ -33,6 +33,8 @@ if (number2 === 0){
 // decision of winner
 if (number1 > number2){
     document.querySelector("h2").innerHTML = "🚩 Player One Wins";
+}else if (number1 === number2){
+    document.querySelector("h2").innerHTML = "😑 Its a draw 😑";
 }else {
     document.querySelector("h2").innerHTML = "Player Two Wins 🚩";
 }
